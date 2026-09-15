@@ -73,6 +73,28 @@ body {
     color: var(--text-primary);
 }
 
+.brand-logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 6px;
+    mix-blend-mode: screen;
+}
+
+.avatar-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+}
+
+.footer-logo {
+    width: 28px;
+    height: 28px;
+    mix-blend-mode: screen;
+}
+
 .nav-links {
     display: flex;
     gap: 32px;
